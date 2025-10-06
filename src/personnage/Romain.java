@@ -23,7 +23,7 @@ private String prendreParole() {
 
 public void recevoirCoup(int forceCoup) {
 	force -= forceCoup;
-	if (force > 1 ) {
+	if (force >= 1 ) {
 		System.out.println("Le Romain " + nom + " :  Aïe ");
 	}else {
 		System.out.println("Le Romain " + nom + " :  J'abandonne ! ");
